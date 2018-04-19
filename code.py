@@ -4,7 +4,7 @@ from google.cloud.language import types
 import json
 import six
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/exepaul/Documents/google_cloud/monkproject-75258f3c75c2.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/exepaul/Documents/google_cloud/monkproject-7525key.json"
 
 def entities_text(text):
     """Detects entities in the text."""
